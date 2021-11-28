@@ -1,0 +1,2 @@
+nerd-fonts-ubuntu-mono
+polybar
