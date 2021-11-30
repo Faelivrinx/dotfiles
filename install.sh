@@ -31,6 +31,11 @@ fi
 echo "Copying config files..."
 cp -r ./.config ~/.config
 
+echo "copying wallpapers"
+mkdir ~/wallpapers/
+cp -r ./wallpapers/* ~/wallpapers/ 
+
+
 #Start lightdm
 systemctl start lightdm
 systemctl enable lightdm
