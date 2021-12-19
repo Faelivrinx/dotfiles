@@ -16,8 +16,8 @@ fun! ColorMyPencils()
     set background=dark
     let g:dracula_colorterm = 0
     let g:dracula_italic = 1
-    colorscheme dracula
-
+    " colorscheme dracula
+    colorscheme gruvbox
 endfun
 call ColorMyPencils()
 
