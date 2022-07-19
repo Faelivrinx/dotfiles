@@ -1,3 +1,5 @@
+" Plug 'hoob3rt/lualine.nvim' {{{
+lua << EOF
 require('plenary.reload').reload_module('lualine', true)
 require('lualine').setup({
   options = {
@@ -10,3 +12,5 @@ require('lualine').setup({
     -- lualine_z = {},
   }
 })
+EOF
+" }}}
